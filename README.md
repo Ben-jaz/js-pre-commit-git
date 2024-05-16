@@ -8,6 +8,7 @@ Um dieses Projekt lokal auszuführen, benötigst du die folgenden Tools:
 
 - [Git](https://git-scm.com/): Versionierungstool für den Quellcode
 - [Node.js](https://nodejs.org/): Laufzeitumgebung für JavaScript
+
 Stelle sicher, dass Git und Node.js auf deinem System installiert sind, bevor du fortfährst.
 
 ## Installation
