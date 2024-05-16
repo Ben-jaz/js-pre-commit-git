@@ -39,7 +39,7 @@ Um die Testabdeckung zu überprüfen und einen Bericht zu generieren, führe den
 npm run test:coverage
 ```
 
-Nachdem diese gelaufen ist erhältes due ine html übersicht unter: `./coverage/lcov-report/index.html`
+Nachdem diese gelaufen ist erhältes du eine html übersicht unter: `./coverage/lcov-report/index.html`
 
 Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen fehlerhaften Test für `$ git commit` oder `$ npm run test` zu erhalten.
 
