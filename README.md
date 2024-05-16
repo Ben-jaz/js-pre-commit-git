@@ -39,12 +39,9 @@ Um die Testabdeckung zu überprüfen und einen Bericht zu generieren, führe den
 npm run test:coverage
 ```
 
+Nachdem diese gelaufen ist erhältes due ine html übersicht unter: `./coverage/lcov-report/index.html`
+
 Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen fehlerhaften Test für `$ git commit` oder `$ npm run test` zu erhalten.
-
-## Beispiel index.html
-Die index.html Datei in diesem Projekt dient als einfaches Beispiel, um die Funktionsweise der implementierten Tests zu veranschaulichen. Sie zeigt, wie JavaScript-Funktionen für mathematische Berechnungen und Zeichenkettenmanipulationen verwendet werden können. Diese Funktionen sind in den separaten JavaScript-Dateien math.js und stringUtils.js definiert.
-
-Die Ausgabe der Funktionen wird im HTML-Dokument angezeigt, um die Ergebnisse darzustellen. Dieses Beispiel soll verdeutlichen, wie Tests in einem JavaScript-Projekt organisiert werden können und wie automatisierte Tests zur Verbesserung der Codequalität beitragen.
 
 ## Wie dieses Project erstellt wurde
 -  **Schritt 1:** Projektstruktur einrichten
@@ -166,6 +163,5 @@ Dieses Projekt verwendet folgende externe Abhängigkeiten:
 
 - **Husky**: Einfache Git Hooks. Lizenziert unter der MIT-Lizenz.
 - **Jest**: JavaScript-Testframework. Lizenziert unter der MIT-Lizenz.
-- **Pico.css**: Minimalistisches CSS-Framework. Lizenziert unter der MIT-Lizenz.
 
 Weitere Informationen zu den Lizenzen der externen Abhängigkeiten findest du in der `LICENSE-INFO.md` Datei.
