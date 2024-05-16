@@ -8,11 +8,9 @@ Um dieses Projekt lokal auszuführen, benötigst du die folgenden Tools:
 
 - [Git](https://git-scm.com/): Versionierungstool für den Quellcode
 - [Node.js](https://nodejs.org/): Laufzeitumgebung für JavaScript
-
 Stelle sicher, dass Git und Node.js auf deinem System installiert sind, bevor du fortfährst.
 
 ## Installation
-
 Um das Projekt herunterzuladen und alle Abhängigkeiten zu installieren, befolge diese Schritte:
 
 1. Öffne dein Terminal oder eine Befehlszeile.
@@ -26,26 +24,27 @@ Um das Projekt herunterzuladen und alle Abhängigkeiten zu installieren, befolge
    ```
 
 ## Verwendung
-
 Nach der Installation der Abhängigkeiten kannst du das Projekt lokal ausführen, Tests durchführen und die darin enthaltenen Funktionen verwenden.
 
 ### Ausführen von Tests
-
 Um die Tests auszuführen, verwende den folgenden Befehl:
 
 ```bash
 npm test
 ```
 ### Testabdeckung überprüfen
-
 Um die Testabdeckung zu überprüfen und einen Bericht zu generieren, führe den folgenden Befehl aus:
 
 ```bash
 npm run test:coverage
 ```
 
-Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen fehlerhaften Test für `\$ git commit` oder `\$ npm run test` zu erhalten.
+Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen fehlerhaften Test für `$ git commit` oder `$ npm run test` zu erhalten.
 
+## Beispiel index.html
+Die index.html Datei in diesem Projekt dient als einfaches Beispiel, um die Funktionsweise der implementierten Tests zu veranschaulichen. Sie zeigt, wie JavaScript-Funktionen für mathematische Berechnungen und Zeichenkettenmanipulationen verwendet werden können. Diese Funktionen sind in den separaten JavaScript-Dateien math.js und stringUtils.js definiert.
+
+Die Ausgabe der Funktionen wird im HTML-Dokument angezeigt, um die Ergebnisse darzustellen. Dieses Beispiel soll verdeutlichen, wie Tests in einem JavaScript-Projekt organisiert werden können und wie automatisierte Tests zur Verbesserung der Codequalität beitragen.
 
 ## Wie dieses Project erstellt wurde
 -  **Schritt 1:** Projektstruktur einrichten
@@ -159,5 +158,14 @@ Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen
 
    Dadurch wird ein Bericht über die Testabdeckung generiert, den du im `coverage`-Verzeichnis finden kannst.
 
-# Lizenz
-© 2024 Ben-jaz. Veröffentlicht unter der GNU-3-Lizenz. Weitere Informationen findest du in der LICENSE Datei.
+## Lizenz
+© 2024 Ben-jaz. Veröffentlicht unter der GNU General Public License Version 3.0 (GPL-3.0). 
+
+### Externe Abhängigkeiten
+Dieses Projekt verwendet folgende externe Abhängigkeiten:
+
+- **Husky**: Einfache Git Hooks. Lizenziert unter der MIT-Lizenz.
+- **Jest**: JavaScript-Testframework. Lizenziert unter der MIT-Lizenz.
+- **Pico.css**: Minimalistisches CSS-Framework. Lizenziert unter der MIT-Lizenz.
+
+Weitere Informationen zu den Lizenzen der externen Abhängigkeiten findest du in der `LICENSE-INFO.md` Datei.
