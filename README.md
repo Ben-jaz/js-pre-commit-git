@@ -44,7 +44,7 @@ Um die Testabdeckung zu überprüfen und einen Bericht zu generieren, führe den
 npm run test:coverage
 ```
 
-Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen fehlerhaften Test für \$ git commit`oder`$ npm run test`` zu erhalten.
+Du kannst einen fehlerhaften Test in test/math.test.js auskommentieren, um einen fehlerhaften Test für `\$ git commit` oder `\$ npm run test` zu erhalten.
 
 
 ## Wie dieses Project erstellt wurde
